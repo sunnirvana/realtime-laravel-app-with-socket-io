@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello World</title>
+    <script src="http://cdn.bootcss.com/socket.io/1.4.8/socket.io.min.js"></script>
+    <script src="http://cdn.bootcss.com/jquery/3.1.0/jquery.min.js"></script>
+</head>
+<body>
+<h1>Hello World!!!</h1>
+
+<ul id="messages"></ul>
+
+<form action="" id="messageForm">
+    <input type="text" autocomplete="off" id="message">
+    <button>Send</button>
+</form>
+
+<script>
+    var socket = io();
+    $('#messageForm').submit(function(){
+        // send chat.message to the server
+        socket.emit('chat.message', $('#message').val());
+        $('#message').val('');
+        return false;
+    });
+
+    socket.on('chat.message', function(message){
+        console.log(message);
+//        $('#messages').html('<li> ' + message + '</li>');
+        $('#messages').append($('<li>').text(message));
+    });
+</script>
+
+</body>
+</html>
