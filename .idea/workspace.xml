@@ -33,14 +33,15 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf>
-          <file leaf-file-name="socket.js" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/redis-lesson/socket.js">
+          <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/README.md">
+              <provider editor-type-id="MarkdownPreviewEditor">
+                <state />
+              </provider>
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.2369439">
-                  <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-                  <folding>
-                    <element signature="e#0#39#0" expanded="false" />
-                  </folding>
+                <state vertical-scroll-proportion="0.24475524">
+                  <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -52,8 +53,8 @@
           <file leaf-file-name="web.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/redis-lesson/routes/web.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.55776894">
-                  <caret line="25" column="61" selection-start-line="25" selection-start-column="61" selection-end-line="25" selection-end-column="61" />
+                <state vertical-scroll-proportion="0.4880478">
+                  <caret line="23" column="6" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
                   <folding />
                 </state>
               </provider>
@@ -80,12 +81,12 @@
         <option value="$PROJECT_DIR$/chat-app/index.js" />
         <option value="$PROJECT_DIR$/redis-lesson/.env" />
         <option value="$PROJECT_DIR$/redis-lesson/config/database.php" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/redis-lesson/config/broadcasting.php" />
         <option value="$PROJECT_DIR$/redis-lesson/resources/views/welcome.blade.php" />
         <option value="$PROJECT_DIR$/redis-lesson/app/Events/NewUserEvent.php" />
         <option value="$PROJECT_DIR$/redis-lesson/routes/web.php" />
         <option value="$PROJECT_DIR$/redis-lesson/socket.js" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -329,7 +330,9 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
           <folding>
-            <element signature="e#0#39#0" expanded="false" />
+            <marker date="1473075368752" expanded="false" signature="0:39" placeholder="/** Created by BSun on 9/5/2016. ...*/" />
+            <marker date="1473075368752" expanded="true" signature="310:430" placeholder="{...}" />
+            <marker date="1473075368752" expanded="true" signature="462:498" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -366,16 +369,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5780781">
           <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1216686">
-          <caret line="3" column="35" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -508,19 +501,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/redis-lesson/routes/web.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.55776894">
-          <caret line="25" column="61" selection-start-line="25" selection-start-column="61" selection-end-line="25" selection-end-column="61" />
+        <state vertical-scroll-proportion="0.4880478">
+          <caret line="23" column="6" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/redis-lesson/socket.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2369439">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        <state vertical-scroll-proportion="0.5415861">
+          <caret line="18" column="3" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
           <folding>
-            <element signature="e#0#39#0" expanded="false" />
+            <marker date="1473075368752" expanded="false" signature="0:39" placeholder="/** Created by BSun on 9/5/2016. ...*/" />
+            <marker date="1473075368752" expanded="true" signature="310:430" placeholder="{...}" />
+            <marker date="1473075368752" expanded="true" signature="462:498" placeholder="{...}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.24475524">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
